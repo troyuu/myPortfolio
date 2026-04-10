@@ -26,24 +26,24 @@ export default function ContactSection() {
       </div>
 
       {/* Two-column layout */}
-      <div className="mt-12 flex flex-col gap-12 xl:flex-row xl:gap-16">
-        {/* Left — info */}
+      <div className="mt-12 flex flex-col gap-12 lg:flex-row lg:gap-12 xl:gap-16">
+        {/* Left — letter */}
         <div
           className={cn(
-            "flex w-full flex-col xl:w-1/2",
+            "flex w-full flex-col lg:w-1/2",
             "transition-all duration-1000 ease-[cubic-bezier(0.25,0.1,0.25,1)]",
             leftVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
           )}
         >
-          <p className="font-sans text-[0.7rem] font-normal leading-[200%] text-foreground min-[376px]:text-[0.8rem] sm:text-[0.9rem]">
+          <p className="text-left font-sans text-[0.7rem] font-normal leading-[200%] text-foreground min-[376px]:text-[0.8rem] sm:text-[0.9rem]">
             {CONTACT.intro}
           </p>
-          <p className="mt-6 whitespace-pre-line font-sans text-[0.7rem] font-normal leading-[200%] text-foreground min-[376px]:text-[0.8rem] sm:text-[0.9rem]">
+          <p className="mt-6 whitespace-pre-line text-left font-sans text-[0.7rem] font-normal leading-[200%] text-foreground min-[376px]:text-[0.8rem] sm:text-[0.9rem]">
             {CONTACT.body}
           </p>
 
-          {/* Name, phone, socials — bottom of left column */}
-          <div className="mt-8 flex items-end justify-between">
+          {/* Signature */}
+          <div className="mt-10 flex items-end justify-between border-t border-border pt-6">
             <div>
               <p className="font-heading text-[0.9rem] font-normal text-foreground">{SITE.name}</p>
               <p className="mt-1 font-sans text-[0.8rem] font-normal text-muted-foreground">{SITE.phone}</p>
@@ -75,7 +75,7 @@ export default function ContactSection() {
         <div
           ref={rightRef}
           className={cn(
-            "flex w-full items-start justify-center font-sans xl:w-1/2 xl:items-center",
+            "flex w-full items-start justify-center font-sans lg:w-1/2 lg:items-center",
             "transition-all duration-700 delay-200 ease-in-out",
             rightVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
           )}
