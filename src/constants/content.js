@@ -12,6 +12,9 @@ import munifiImage1 from "@/assets/images/munifi-1.png";
 import munifiImage2 from "@/assets/images/munifi-2.png";
 import munifiImage3 from "@/assets/images/munifi-3.png";
 import munifiImage4 from "@/assets/images/munifi-4.png";
+import portfolioImage1 from "@/assets/images/portfolio-1.png";
+import portfolioImage2 from "@/assets/images/portfolio-2.png";
+import portfolioImage3 from "@/assets/images/portfolio-4.png";
 
 export const SITE = {
   name: "Troy Labajo",
@@ -89,6 +92,16 @@ export const PROJECTS = [
     image: [adawptImage1, adawptImage2, adawptImage3],
     github: "#",
     demo: "#",
+  },
+  {
+    id: 6,
+    title: "MY PORTFOLIO",
+    description:
+      "A personal portfolio website showcasing my projects, skills, and services. Features a clean minimalist design with smooth animations, responsive layout, dark/light theme toggle, image carousels for project showcases, a contact form powered by EmailJS, and a skills section with animated progress bars.",
+    techstack: "React, Vite, Tailwind CSS, shadcn/ui, EmailJS",
+    image: [portfolioImage1, portfolioImage2, portfolioImage3],
+    github: "https://github.com/troyuu/myPortfolio",
+    demo: "https://troyuu.online",
   },
 ];
 
