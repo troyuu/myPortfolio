@@ -15,6 +15,9 @@ import munifiImage4 from "@/assets/images/munifi-4.png";
 import portfolioImage1 from "@/assets/images/portfolio-1.png";
 import portfolioImage2 from "@/assets/images/portfolio-2.png";
 import portfolioImage3 from "@/assets/images/portfolio-4.png";
+import convertexImage1 from "@/assets/images/convertex-1.png";
+import convertexImage2 from "@/assets/images/convertex-2.png";
+import convertexImage3 from "@/assets/images/convertex-3.png";
 
 export const SITE = {
   name: "Troy Labajo",
@@ -95,6 +98,16 @@ export const PROJECTS = [
   },
   {
     id: 6,
+    title: "CONVERTEX",
+    description:
+      "A privacy-focused file conversion web app with a retro Windows 95 aesthetic. Supports 18 conversion types across documents, images, spreadsheets, and presentations — including PDF, Word, Excel, PowerPoint, HTML, and image formats. Files are deleted immediately after download with zero storage, no accounts, and no tracking.",
+    techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, LibreOffice, Sharp, Tesseract.js, Puppeteer",
+    image: [convertexImage1, convertexImage2, convertexImage3],
+    github: "https://github.com/troyuu/convertex",
+    demo: "https://convertex.troyuu.online/",
+  },
+  {
+    id: 7,
     title: "MY PORTFOLIO",
     description:
       "A personal portfolio website showcasing my projects, skills, and services. Features a clean minimalist design with smooth animations, responsive layout, dark/light theme toggle, image carousels for project showcases, a contact form powered by EmailJS, and a skills section with animated progress bars.",
