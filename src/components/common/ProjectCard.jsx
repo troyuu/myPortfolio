@@ -16,7 +16,7 @@ function useImages(image) {
   return Array.isArray(image) ? image : [image];
 }
 
-/** Auto-advancing slideshow index (2s interval) */
+/** Auto-advancing slideshow index (4s interval) */
 function useSlideshow(images, active) {
   const [index, setIndex] = useState(0);
 
@@ -24,7 +24,7 @@ function useSlideshow(images, active) {
     if (!active || images.length <= 1) return;
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
-    }, 2000);
+    }, 4000);
     return () => clearInterval(timer);
   }, [active, images.length]);
 
