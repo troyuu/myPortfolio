@@ -119,11 +119,12 @@ export const PROJECTS = [
 ];
 
 export const TECHNICAL_SKILLS = [
+  // Markup & Styling
+  { name: "HTML & CSS", level: 90 },
   // Programming Languages
   { name: "JavaScript", level: 88 },
   { name: "TypeScript", level: 85 },
   { name: "Python", level: 85 },
-  { name: "HTML & CSS", level: 90 },
   // Frameworks & Libraries
   { name: "React", level: 90 },
   { name: "React Native", level: 80 },
@@ -133,25 +134,27 @@ export const TECHNICAL_SKILLS = [
   { name: "Django", level: 82 },
   { name: "Tailwind CSS", level: 88 },
   { name: "Sequelize", level: 82 },
+  { name: "shadcn/ui", level: 85 },
   // Databases
   { name: "PostgreSQL", level: 80 },
   { name: "MongoDB", level: 80 },
-  // Tools & Platforms
+  // DevOps & Tools
   { name: "Docker", level: 78 },
-  { name: "shadcn/ui", level: 85 },
   { name: "GitHub / Git", level: 90 },
   { name: "Postman", level: 85 },
+  { name: "Figma", level: 85 },
+  // Automation & Services
   { name: "n8n", level: 82 },
   { name: "Airtable", level: 85 },
   { name: "Shopify", level: 80 },
 ];
 
 export const CODE_SNIPPET = `const myTechnicalSkills = [
-  JavaScript, TypeScript, Python,
-  HTML & CSS, React, React Native, Next.js,
-  Node.js, Express.js, Django, Tailwind CSS,
-  Sequelize, PostgreSQL, MongoDB,
-  Docker, shadcn/ui, GitHub, Git, Postman,
+  HTML & CSS, JavaScript, TypeScript, Python,
+  React, React Native, Next.js, Node.js,
+  Express.js, Django, Tailwind CSS,
+  Sequelize, shadcn/ui, PostgreSQL, MongoDB,
+  Docker, GitHub, Git, Postman, Figma,
   n8n, Airtable, Shopify ];`;
 
 export const SERVICES = [

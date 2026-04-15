@@ -15,25 +15,26 @@ const CODE_TOKENS = [
   { text: " = ", type: "plain" },
   { text: "[", type: "bracket" },
   { text: "\n  ", type: "plain" },
+  { text: "HTML & CSS", type: "string" }, { text: ", ", type: "plain" },
   { text: "JavaScript", type: "string" }, { text: ", ", type: "plain" },
   { text: "TypeScript", type: "string" }, { text: ", ", type: "plain" },
   { text: "Python", type: "string" }, { text: ",\n  ", type: "plain" },
-  { text: "HTML & CSS", type: "string" }, { text: ", ", type: "plain" },
   { text: "React", type: "string" }, { text: ", ", type: "plain" },
   { text: "React Native", type: "string" }, { text: ", ", type: "plain" },
-  { text: "Next.js", type: "string" }, { text: ",\n  ", type: "plain" },
-  { text: "Node.js", type: "string" }, { text: ", ", type: "plain" },
+  { text: "Next.js", type: "string" }, { text: ", ", type: "plain" },
+  { text: "Node.js", type: "string" }, { text: ",\n  ", type: "plain" },
   { text: "Express.js", type: "string" }, { text: ", ", type: "plain" },
   { text: "Django", type: "string" }, { text: ", ", type: "plain" },
   { text: "Tailwind CSS", type: "string" }, { text: ",\n  ", type: "plain" },
   { text: "Sequelize", type: "string" }, { text: ", ", type: "plain" },
+  { text: "shadcn/ui", type: "string" }, { text: ", ", type: "plain" },
   { text: "PostgreSQL", type: "string" }, { text: ", ", type: "plain" },
   { text: "MongoDB", type: "string" }, { text: ",\n  ", type: "plain" },
   { text: "Docker", type: "string" }, { text: ", ", type: "plain" },
-  { text: "shadcn/ui", type: "string" }, { text: ", ", type: "plain" },
   { text: "GitHub", type: "string" }, { text: ", ", type: "plain" },
   { text: "Git", type: "string" }, { text: ", ", type: "plain" },
-  { text: "Postman", type: "string" }, { text: ",\n  ", type: "plain" },
+  { text: "Postman", type: "string" }, { text: ", ", type: "plain" },
+  { text: "Figma", type: "string" }, { text: ",\n  ", type: "plain" },
   { text: "n8n", type: "string" }, { text: ", ", type: "plain" },
   { text: "Airtable", type: "string" }, { text: ", ", type: "plain" },
   { text: "Shopify", type: "string" }, { text: " ", type: "plain" },
@@ -322,7 +323,7 @@ export default function SkillsSection() {
         </div>
 
         {/* Code box — right column on xl */}
-        <div className="mx-auto w-full max-w-2xl xl:mx-0 xl:w-1/2">
+        <div className="mx-auto w-fit max-w-full xl:mx-0">
           <div
             ref={codeRef}
             className={cn(

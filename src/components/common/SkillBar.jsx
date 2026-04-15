@@ -18,6 +18,7 @@ import {
   SiN8N,
   SiAirtable,
   SiShopify,
+  SiFigma,
 } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 import { cn } from "@/lib/utils";
@@ -45,6 +46,7 @@ const SKILL_ICONS = {
   "n8n":               SiN8N,
   "Airtable":          SiAirtable,
   "Shopify":           SiShopify,
+  "Figma":             SiFigma,
 };
 
 export default function SkillBar({ name }) {
