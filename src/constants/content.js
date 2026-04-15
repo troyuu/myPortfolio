@@ -50,7 +50,7 @@ export const PROJECTS = [
     id: 1,
     title: "MUNIFI",
     description:
-      "A full-stack municipal complaint management system where residents file complaints to their municipal hall and track their status in real time. Admins manage the entire complaint lifecycle — from filing and scheduling hearings to resolving cases. Features include a dashboard with analytics, complaint filtering by barangay and status, a hearing calendar, and role-based access for residents and admins.",
+      "A full-stack municipal complaint management system where residents file complaints to their municipal hall and track their status in real time. Admins manage the entire complaint lifecycle - from filing and scheduling hearings to resolving cases. Features include a dashboard with analytics, complaint filtering by barangay and status, a hearing calendar, and role-based access for residents and admins.",
     techstack: "Next.js, TypeScript, Tailwind CSS, shadcn/ui, Auth.js, Express.js, Sequelize, PostgreSQL, Zod, Turborepo",
     image: [munifiImage1, munifiImage2, munifiImage3, munifiImage4],
     github: "#",
@@ -60,7 +60,7 @@ export const PROJECTS = [
     id: 2,
     title: "AUTRACK",
     description:
-      "A room reservation system built for Cebu Technological University to solve limited classroom availability. Users can view real-time room availability, book open spaces, and manage reservations — helping students and faculty find and secure rooms without scheduling conflicts.",
+      "A room reservation system built for Cebu Technological University to solve limited classroom availability. Users can view real-time room availability, book open spaces, and manage reservations - helping students and faculty find and secure rooms without scheduling conflicts.",
     techstack: "React, TypeScript, Firebase, Tailwind CSS",
     image: [autrackImage1, autrackImage2, autrackImage3],
     github: "#",
@@ -70,7 +70,7 @@ export const PROJECTS = [
     id: 3,
     title: "FIGHT",
     description:
-      "A Shopify e-commerce store for MMA equipment. Features product catalogs, shopping cart, and secure checkout for martial arts gear and accessories. Note: The live demo uses a custom theme visible via Shopify admin preview — the password-protected storefront may show a different default theme. (Password: Aqt23Tyb3)",
+      "A Shopify e-commerce store for MMA equipment. Features product catalogs, shopping cart, and secure checkout for martial arts gear and accessories. Note: The live demo uses a custom theme visible via Shopify admin preview - the password-protected storefront may show a different default theme. (Password: Aqt23Tyb3)",
     techstack: "Shopify, CLI",
     image: [fightPhImage1, fightPhImage2],
     github: null,
@@ -100,8 +100,8 @@ export const PROJECTS = [
     id: 6,
     title: "CONVERTEX",
     description:
-      "A privacy-focused file conversion web app with a retro Windows 95 aesthetic. Supports 18 conversion types across documents, images, spreadsheets, and presentations — including PDF, Word, Excel, PowerPoint, HTML, and image formats. Files are deleted immediately after download with zero storage, no accounts, and no tracking.",
-    techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, LibreOffice, Sharp, Tesseract.js, Puppeteer",
+      "A free, open-source file conversion web app with a retro Windows 95 aesthetic. It supports 18 conversion types for documents, images, spreadsheets, and presentations. All files are deleted immediately after download. No accounts, no tracking, and no data collection.",
+    techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, LibreOffice, Sharp, Tesseract.js",
     image: [convertexImage1, convertexImage2, convertexImage3],
     github: "https://github.com/troyuu/convertex",
     demo: "https://convertex.troyuu.online/",
@@ -158,7 +158,7 @@ export const SERVICES = [
   {
     title: "Web Development",
     description:
-      "Custom websites and web applications built with modern frameworks like React, Next.js, and Express.js — fast, scalable, and tailored to your needs.",
+      "Custom websites and web applications built with modern frameworks like React, Next.js, and Express.js - fast, scalable, and tailored to your needs.",
     icon: "Globe",
   },
   {
@@ -176,7 +176,7 @@ export const SERVICES = [
   {
     title: "Business Automation",
     description:
-      "Streamline your workflows with n8n, Airtable, and custom bots — automate repetitive tasks so you can focus on what matters.",
+      "Streamline your workflows with n8n, Airtable, and custom bots - automate repetitive tasks so you can focus on what matters.",
     icon: "Zap",
   },
   {
@@ -188,7 +188,7 @@ export const SERVICES = [
   {
     title: "E-Commerce Solutions",
     description:
-      "Shopify stores and custom online shops — product catalogs, shopping carts, and secure checkout, ready to sell.",
+      "Shopify stores and custom online shops - product catalogs, shopping carts, and secure checkout, ready to sell.",
     icon: "ShoppingCart",
   },
 ];
@@ -197,7 +197,7 @@ export const CONTACT = {
   heading: "GET IN TOUCH!",
   intro:
     "Thank you for your interest in my work.",
-  body: `Whether you have a business idea you want to bring to life, a web app that needs building, or workflows you want to automate — I'd love to hear about it. I work closely with every client to deliver clean, reliable, and scalable solutions on time.
+  body: `Whether you have a business idea you want to bring to life, a web app that needs building, or workflows you want to automate - I'd love to hear about it. I work closely with every client to deliver clean, reliable, and scalable solutions on time.
 
 From startups to established businesses, I've helped clients turn their ideas into real products. If you're looking for a developer who treats your project like his own, let's talk.
 
