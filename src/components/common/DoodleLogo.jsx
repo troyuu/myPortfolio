@@ -46,6 +46,23 @@ function SunDoodle({ className }) {
       <path d="M58 33 C66 31, 78 36, 85 46 C91 55, 92 66, 86 76 C80 85, 68 90, 56 88 C44 86, 34 78, 32 66 C30 54, 36 42, 46 36 C50 33, 54 33, 58 33" strokeWidth="2.5" />
       {/* Second pass — overlapping sketch line for hand-drawn feel */}
       <path d="M57 34 C68 32, 80 38, 86 48 C92 58, 91 70, 84 78 C77 86, 65 89, 55 87 C45 85, 35 76, 33 64 C31 52, 38 41, 48 36 C52 34, 55 33, 57 34" strokeWidth="1.2" opacity="0.5" />
+
+      {/* Sunspots — small dots on the sun's surface */}
+      <circle cx="55" cy="52" r="1.8" strokeWidth="1" opacity="0.55" />
+      <circle cx="70" cy="62" r="2.4" strokeWidth="1" opacity="0.55" />
+      <circle cx="48" cy="70" r="1.4" strokeWidth="0.9" opacity="0.5" />
+      <circle cx="65" cy="76" r="1.2" strokeWidth="0.9" opacity="0.45" />
+      <circle cx="76" cy="50" r="1" strokeWidth="0.8" opacity="0.45" />
+
+      {/* Heat shimmer dots — scattered tiny sparks beyond the flames */}
+      <circle cx="10" cy="60" r="0.9" strokeWidth="0" fill="currentColor" />
+      <circle cx="110" cy="60" r="0.9" strokeWidth="0" fill="currentColor" />
+      <circle cx="60" cy="10" r="0.9" strokeWidth="0" fill="currentColor" />
+      <circle cx="60" cy="110" r="0.9" strokeWidth="0" fill="currentColor" />
+      <circle cx="20" cy="20" r="0.7" strokeWidth="0" fill="currentColor" opacity="0.7" />
+      <circle cx="100" cy="20" r="0.7" strokeWidth="0" fill="currentColor" opacity="0.7" />
+      <circle cx="100" cy="100" r="0.7" strokeWidth="0" fill="currentColor" opacity="0.7" />
+      <circle cx="20" cy="100" r="0.7" strokeWidth="0" fill="currentColor" opacity="0.7" />
     </svg>
   );
 }
@@ -62,24 +79,46 @@ function MoonDoodle({ className }) {
       strokeLinejoin="round"
       className={className}
     >
-      {/* Crescent moon */}
+      {/* Sparkle rays around moon — top-left */}
+      <path d="M22 18 L26 22" strokeWidth="1.4" opacity="0.6" />
+      <path d="M16 32 L21 33" strokeWidth="1.4" opacity="0.6" />
+      <path d="M30 12 L31 17" strokeWidth="1.4" opacity="0.6" />
+
+      {/* Crescent moon — outer arc (sketchy hand-drawn) */}
       <path
-        d="M75 20 C50 25, 30 45, 30 65 C30 90, 50 108, 75 108"
-        strokeWidth="2.5"
+        d="M78 18 C54 20, 32 40, 30 64 C28 92, 50 110, 78 110"
+        strokeWidth="2.8"
       />
+      {/* Inner crescent curve — solid, smoother shape */}
       <path
-        d="M75 108 C60 100, 50 85, 50 65 C50 45, 60 30, 75 20"
-        strokeWidth="2"
-        strokeDasharray="3 2"
+        d="M78 110 C62 100, 52 84, 52 64 C52 44, 62 28, 78 18"
+        strokeWidth="2.2"
       />
-      {/* Stars — right side only */}
-      <path d="M90 30 L91 26 L92 30 L96 31 L92 32 L91 36 L90 32 L86 31Z" strokeWidth="1.2" />
-      <path d="M95 65 L96 62 L97 65 L100 66 L97 67 L96 70 L95 67 L92 66Z" strokeWidth="1" />
-      <path d="M85 90 L86 87 L87 90 L90 91 L87 92 L86 95 L85 92 L82 91Z" strokeWidth="1" />
-      {/* Tiny star dots */}
-      <circle cx="100" cy="42" r="1" strokeWidth="1" />
-      <circle cx="88" cy="105" r="1" strokeWidth="1" />
-      <circle cx="105" cy="80" r="0.8" strokeWidth="0.8" />
+      {/* Second pass — overlapping sketch line for hand-drawn feel */}
+      <path
+        d="M76 19 C53 22, 33 41, 31 64 C29 90, 51 109, 76 109"
+        strokeWidth="1"
+        opacity="0.45"
+      />
+
+      {/* Craters — small dots on the moon's solid body (left side of crescent) */}
+      <circle cx="42" cy="55" r="2" strokeWidth="1" opacity="0.5" />
+      <circle cx="38" cy="78" r="2.6" strokeWidth="1" opacity="0.5" />
+      <circle cx="46" cy="92" r="1.4" strokeWidth="0.9" opacity="0.45" />
+      <circle cx="48" cy="38" r="1.3" strokeWidth="0.9" opacity="0.45" />
+
+      {/* Stars — right side, varied sizes */}
+      <path d="M92 28 L93.2 24 L94.4 28 L98.4 29 L94.4 30 L93.2 34 L92 30 L88 29Z" strokeWidth="1.2" />
+      <path d="M100 58 L101 55 L102 58 L105 59 L102 60 L101 63 L100 60 L97 59Z" strokeWidth="1" />
+      <path d="M86 96 L87 93 L88 96 L91 97 L88 98 L87 101 L86 98 L83 97Z" strokeWidth="1" />
+      <path d="M108 38 L108.7 35.5 L109.4 38 L112 38.7 L109.4 39.4 L108.7 42 L108 39.4 L105.4 38.7Z" strokeWidth="0.9" opacity="0.8" />
+
+      {/* Tiny twinkle dots */}
+      <circle cx="104" cy="74" r="1" strokeWidth="0" fill="currentColor" />
+      <circle cx="94" cy="46" r="0.9" strokeWidth="0" fill="currentColor" />
+      <circle cx="92" cy="78" r="0.7" strokeWidth="0" fill="currentColor" opacity="0.7" />
+      <circle cx="100" cy="100" r="1" strokeWidth="0" fill="currentColor" />
+      <circle cx="113" cy="56" r="0.8" strokeWidth="0" fill="currentColor" opacity="0.7" />
     </svg>
   );
 }

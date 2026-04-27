@@ -45,7 +45,7 @@ export default function AboutSection() {
         </p>
 
         {/* Footer row — Resume button (left) + Name/info (right) */}
-        <div className="mt-8 flex flex-col-reverse items-start justify-between gap-6 sm:flex-row sm:items-end">
+        <div className="mt-8 flex flex-col-reverse items-center justify-between gap-6 sm:flex-row sm:items-end">
           <a
             href="/Troy_Labajo_Resume.pdf"
             download="Troy_Labajo_Resume.pdf"
@@ -70,7 +70,7 @@ export default function AboutSection() {
           </a>
 
           {/* Name/info — text-align: right, Montserrat 1.5rem */}
-          <div className="text-right">
+          <div className="text-center sm:text-right">
             <p className="font-heading text-[1.5rem] font-normal">{SITE.name}</p>
             <p className="text-[0.8rem] text-muted-foreground">{SITE.email}</p>
             <p className="text-[0.8rem] text-muted-foreground">{SITE.location}</p>
