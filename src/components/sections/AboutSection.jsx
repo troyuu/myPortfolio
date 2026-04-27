@@ -44,11 +44,37 @@ export default function AboutSection() {
           {ABOUT.note}
         </p>
 
-        {/* Name/info — text-align: right, Montserrat 1.5rem */}
-        <div className="mt-8 text-right">
-          <p className="font-heading text-[1.5rem] font-normal">{SITE.name}</p>
-          <p className="text-[0.8rem] text-muted-foreground">{SITE.email}</p>
-          <p className="text-[0.8rem] text-muted-foreground">{SITE.location}</p>
+        {/* Footer row — Resume button (left) + Name/info (right) */}
+        <div className="mt-8 flex flex-col-reverse items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <a
+            href="/Troy_Labajo_Resume.pdf"
+            download="Troy_Labajo_Resume.pdf"
+            className="inline-flex items-center gap-2 px-6 py-2.5 text-[0.75rem] font-semibold uppercase tracking-[0.15rem] text-foreground transition-all duration-300 hover:opacity-70"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download Resume
+          </a>
+
+          {/* Name/info — text-align: right, Montserrat 1.5rem */}
+          <div className="text-right">
+            <p className="font-heading text-[1.5rem] font-normal">{SITE.name}</p>
+            <p className="text-[0.8rem] text-muted-foreground">{SITE.email}</p>
+            <p className="text-[0.8rem] text-muted-foreground">{SITE.location}</p>
+          </div>
         </div>
       </div>
     </section>
