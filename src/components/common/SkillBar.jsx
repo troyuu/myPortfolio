@@ -19,6 +19,7 @@ import {
   SiAirtable,
   SiShopify,
   SiFigma,
+  SiWordpress,
 } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 import { cn } from "@/lib/utils";
@@ -47,6 +48,7 @@ const SKILL_ICONS = {
   "Airtable":          SiAirtable,
   "Shopify":           SiShopify,
   "Figma":             SiFigma,
+  "WordPress":         SiWordpress,
 };
 
 export default function SkillBar({ name }) {

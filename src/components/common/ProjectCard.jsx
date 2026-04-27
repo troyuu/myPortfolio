@@ -86,15 +86,14 @@ export default function ProjectCard({ project }) {
               >
                 <X className="size-5" />
               </Button>
-              <div className="relative w-full overflow-hidden rounded-t-[0.5rem]">
+              <div className="relative h-[18rem] w-full overflow-hidden rounded-t-[0.5rem] bg-muted sm:h-[22rem] lg:h-[28rem]">
                 {images.map((src, i) => (
                   <img
                     key={i}
                     src={src}
                     alt={project.title}
                     className={cn(
-                      "w-full transition-opacity duration-700 ease-in-out",
-                      i === 0 ? "relative" : "absolute inset-0",
+                      "absolute inset-0 h-full w-full object-contain transition-opacity duration-700 ease-in-out",
                       i === modalIndex ? "opacity-100" : "opacity-0"
                     )}
                   />

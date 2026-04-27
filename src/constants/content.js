@@ -18,6 +18,11 @@ import portfolioImage3 from "@/assets/images/portfolio-4.png";
 import convertexImage1 from "@/assets/images/convertex-1.png";
 import convertexImage2 from "@/assets/images/convertex-2.png";
 import convertexImage3 from "@/assets/images/convertex-3.png";
+import pettoImage1 from "@/assets/images/petto-1.png";
+import pettoImage2 from "@/assets/images/petto-2.png";
+import pettoImage3 from "@/assets/images/petto-3.png";
+import pettoImage4 from "@/assets/images/petto-4.png";
+import pettoImage5 from "@/assets/images/petto-5.png";
 
 export const SITE = {
   name: "Troy Labajo",
@@ -108,6 +113,16 @@ export const PROJECTS = [
   },
   {
     id: 7,
+    title: "PETTO",
+    description:
+      "A privacy-first, offline-only pet care tracker for Android & iOS. All data stays on-device with no cloud and no accounts. Built for the Philippine market with PHP currency support and Askal/Puspin breeds as first-class options. Track feedings, medications, weight, expenses, and health records for your pets - fully local, fully yours.",
+    techstack: "React Native, TypeScript, NativeWind, Tailwind CSS, Zustand, MMKV, op-sqlite, Notifee, Victory Native, Skia, Reanimated",
+    image: [pettoImage1, pettoImage2, pettoImage3, pettoImage4, pettoImage5],
+    github: "https://github.com/troyuu/petto",
+    demo: null,
+  },
+  {
+    id: 8,
     title: "MY PORTFOLIO",
     description:
       "A personal portfolio website showcasing my projects, skills, and services. Features a clean minimalist design with smooth animations, responsive layout, dark/light theme toggle, image carousels for project showcases, a contact form powered by EmailJS, and a skills section with animated progress bars.",
@@ -147,6 +162,7 @@ export const TECHNICAL_SKILLS = [
   { name: "n8n", level: 82 },
   { name: "Airtable", level: 85 },
   { name: "Shopify", level: 80 },
+  { name: "WordPress", level: 78 },
 ];
 
 export const CODE_SNIPPET = `const myTechnicalSkills = [
@@ -155,7 +171,7 @@ export const CODE_SNIPPET = `const myTechnicalSkills = [
   Express.js, Django, Tailwind CSS,
   Sequelize, shadcn/ui, PostgreSQL, MongoDB,
   Docker, GitHub, Git, Postman, Figma,
-  n8n, Airtable, Shopify ];`;
+  n8n, Airtable, Shopify, WordPress ];`;
 
 export const SERVICES = [
   {
