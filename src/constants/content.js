@@ -23,6 +23,13 @@ import pettoImage2 from "@/assets/images/petto-2.png";
 import pettoImage3 from "@/assets/images/petto-3.png";
 import pettoImage4 from "@/assets/images/petto-4.png";
 import pettoImage5 from "@/assets/images/petto-5.png";
+import turboAdminImage1 from "@/assets/images/turbo-admin-1.png";
+import turboAdminImage2 from "@/assets/images/turbo-admin-2.png";
+import turboAdminImage3 from "@/assets/images/turbo-admin-3.png";
+import turboAdminImage4 from "@/assets/images/turbo-admin-4.png";
+import turboAdminImage5 from "@/assets/images/turbo-admin-5.png";
+import hirayaImage1 from "@/assets/images/hiraya-1.png";
+import tayogImage1 from "@/assets/images/tayog-1.png";
 
 export const SITE = {
   name: "Troy Labajo",
@@ -51,6 +58,36 @@ As a freelancer, I've worked with diverse clients to deliver high-quality web ap
 };
 
 export const PROJECTS = [
+  {
+    id: 9,
+    title: "TURBO ADMIN",
+    description:
+      "An enterprise call center platform powered by Dialpad CTI that fully automates outbound dialing - agents simply stay on standby and the auto-dialer connects them to the next eligible lead based on imported leads and timezone-based call time management. The admin side runs the entire operation: bulk lead import/export with automatic timezone detection from area codes, campaign and list management, agent and agent group management with caller pool rotation and live monitoring, DST-aware calling windows (EST/CST/MST/PST) with real-time dialing eligibility, call logs with recordings, outcome tagging, DNC/passup tracking and AI-assisted dispositions, voicemail messages, Hiya spam-score monitoring, caller ID management, auto-assign rules, and exportable reports. The agent side features an embedded Dialpad CTI with auto-dialer controls, live lead cards, call scripts, and recent call history. This is the most complex system I've handled - I built the full stack and managed its deployment. Note: The GitHub repository is private and client-owned; a project link and live demo are available upon request.",
+    techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, Dialpad API",
+    image: [turboAdminImage1, turboAdminImage2, turboAdminImage3, turboAdminImage4, turboAdminImage5],
+    github: null,
+    demo: null,
+  },
+  {
+    id: 10,
+    title: "HIRAYA",
+    description:
+      "A cinematic scroll-driven landing page for Hiraya, a residential village of forty-eight homes under old acacia trees in Silang, Cavite. The whole site plays like one continuous drone shot - scrolling scrubs through a pre-rendered WebP frame sequence, flying you over the village from sunrise fields to tree-lined streets. Built with Lenis smooth scrolling, GSAP ScrollTrigger, and Framer Motion, it showcases the three house models, the clubhouse, and ends with a schedule-a-visit flow.",
+    techstack: "React, Vite, GSAP, ScrollTrigger, Lenis, Framer Motion",
+    image: [hirayaImage1],
+    github: null,
+    demo: "https://cgr-3d.iceman.systems/hiraya/",
+  },
+  {
+    id: 11,
+    title: "TAYOG",
+    description:
+      "A cinematic website for Tayog, a digital architecture studio that treats software like buildings - platforms with foundations, interiors, and systems. The site is one unbroken shot through a digital tower: the blue-hour skyline approach, the threshold, three working floors, and the rooftop - all scrubbed frame by frame as you scroll. Powered by a pre-rendered WebP keyframe sequence with Lenis smooth scrolling, GSAP ScrollTrigger, and Framer Motion, capped with a request-a-walkthrough flow.",
+    techstack: "React, Vite, GSAP, ScrollTrigger, Lenis, Framer Motion",
+    image: [tayogImage1],
+    github: null,
+    demo: "https://cgr-3d.iceman.systems/tayog/",
+  },
   {
     id: 1,
     title: "MUNIFI",
