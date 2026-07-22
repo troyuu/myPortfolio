@@ -146,7 +146,7 @@ export const PROJECTS = [
     techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, LibreOffice, Sharp, Tesseract.js",
     image: [convertexImage1, convertexImage2, convertexImage3],
     github: "https://github.com/troyuu/convertex",
-    demo: "https://convertex.troyuu.online/",
+    demo: null,
   },
   {
     id: 7,
