@@ -30,6 +30,7 @@ import turboAdminImage4 from "@/assets/images/turbo-admin-4.png";
 import turboAdminImage5 from "@/assets/images/turbo-admin-5.png";
 import hirayaImage1 from "@/assets/images/hiraya-1.png";
 import tayogImage1 from "@/assets/images/tayog-1.png";
+import konvoyImage1 from "@/assets/images/konvoy-1.png";
 
 export const SITE = {
   name: "Troy Labajo",
@@ -87,6 +88,16 @@ export const PROJECTS = [
     image: [tayogImage1],
     github: null,
     demo: "https://cgr-3d.iceman.systems/tayog/",
+  },
+  {
+    id: 12,
+    title: "KONVOY",
+    description:
+      "The official website for Konvoy, one of the Philippines' premier combat sports and MMA event promotions based in Cebu City. Fans can explore past and upcoming events, follow fighter profiles and match-ups, read the latest news, blog posts, and live fight updates, and buy tickets online. The site also features a Fan Zone, fighter and event histories, partnered gyms directory, and user sign-up for a personalized experience.",
+    techstack: "WordPress, PHP",
+    image: [konvoyImage1],
+    github: null,
+    demo: "https://konvoy.ph",
   },
   {
     id: 1,
