@@ -63,7 +63,7 @@ export const PROJECTS = [
     id: 9,
     title: "TURBO ADMIN",
     description:
-      "An enterprise call center platform powered by Dialpad CTI that fully automates outbound dialing - agents simply stay on standby and the auto-dialer connects them to the next eligible lead based on imported leads and timezone-based call time management. The admin side runs the entire operation: bulk lead import/export with automatic timezone detection from area codes, campaign and list management, agent and agent group management with caller pool rotation and live monitoring, DST-aware calling windows (EST/CST/MST/PST) with real-time dialing eligibility, call logs with recordings, outcome tagging, DNC/passup tracking and AI-assisted dispositions, voicemail messages, Hiya spam-score monitoring, caller ID management, auto-assign rules, and exportable reports. The agent side features an embedded Dialpad CTI with auto-dialer controls, live lead cards, call scripts, and recent call history. This is the most complex system I've handled - I built the full stack and managed its deployment. Note: The GitHub repository is private and client-owned; a project link and live demo are available upon request.",
+      "An enterprise call center platform powered by Dialpad CTI that fully automates outbound dialing - agents simply stay on standby and the auto-dialer connects them to the next eligible lead based on imported leads and timezone-based call time management. The admin side runs the entire operation: bulk lead import/export with automatic timezone detection from area codes, campaign and list management, agent and agent group management with caller pool rotation and live monitoring, DST-aware calling windows (EST/CST/MST/PST) with real-time dialing eligibility, call logs with recordings, outcome tagging, DNC/passup tracking and AI-assisted dispositions, voicemail messages, Hiya spam-score monitoring, caller ID management, auto-assign rules, and exportable reports. The agent side features an embedded Dialpad CTI with auto-dialer controls, live lead cards, call scripts, and recent call history. This is the most complex system I've handled - I built the full stack and managed its deployment. This was a team project and was built with AI assistance. Note: The GitHub repository is private and client-owned; a project link and live demo are available upon request.",
     techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, Dialpad API",
     image: [turboAdminImage1, turboAdminImage2, turboAdminImage3, turboAdminImage4, turboAdminImage5],
     github: null,
@@ -103,7 +103,7 @@ export const PROJECTS = [
     id: 1,
     title: "MUNIFI",
     description:
-      "A full-stack municipal complaint management system where residents file complaints to their municipal hall and track their status in real time. Admins manage the entire complaint lifecycle - from filing and scheduling hearings to resolving cases. Features include a dashboard with analytics, complaint filtering by barangay and status, a hearing calendar, and role-based access for residents and admins.",
+      "A full-stack municipal complaint management system where residents file complaints to their municipal hall and track their status in real time. Admins manage the entire complaint lifecycle - from filing and scheduling hearings to resolving cases. Features include a dashboard with analytics, complaint filtering by barangay and status, a hearing calendar, and role-based access for residents and admins. This project was built with AI assistance.",
     techstack: "Next.js, TypeScript, Tailwind CSS, shadcn/ui, Auth.js, Express.js, Sequelize, PostgreSQL, Zod, Turborepo",
     image: [munifiImage1, munifiImage2, munifiImage3, munifiImage4],
     github: "#",
@@ -123,7 +123,7 @@ export const PROJECTS = [
     id: 3,
     title: "FIGHT",
     description:
-      "A Shopify e-commerce store for MMA equipment. Features product catalogs, shopping cart, and secure checkout for martial arts gear and accessories. Note: The live demo uses a custom theme visible via Shopify admin preview - the password-protected storefront may show a different default theme. (Password: Aqt23Tyb3)",
+      "A Shopify e-commerce store for MMA equipment. Features product catalogs, shopping cart, and secure checkout for martial arts gear and accessories. Note: The live demo uses a custom theme visible via Shopify admin preview - the password-protected storefront may show a different default theme. (Password: Aqt23Tyb3) This project was built with AI assistance.",
     techstack: "Shopify, CLI",
     image: [fightPhImage1, fightPhImage2],
     github: null,
@@ -133,7 +133,7 @@ export const PROJECTS = [
     id: 4,
     title: "TELEGRAM QUIZBOT",
     description:
-      "An automatic quiz generator for agents. By sending a YouTube link to the Telegram bot, it generates 10 questions and automatically sends them to the agent's Telegram account. Note: No live demo and GitHub repository available due to confidential reasons for the client.",
+      "An automatic quiz generator for agents. By sending a YouTube link to the Telegram bot, it generates 10 questions and automatically sends them to the agent's Telegram account. Note: No live demo and GitHub repository available due to confidential reasons for the client. This project was built with AI assistance.",
     techstack: "n8n, Airtable, Telegram Bots",
     image: [telequizbotImage1, telequizbotImage2],
     github: null,
@@ -143,7 +143,7 @@ export const PROJECTS = [
     id: 5,
     title: "ADAWPT",
     description:
-      "A community-driven stray animal rescue platform. Users can report stray animals with location pinning, browse and adopt rescued pets, donate to support rescue operations, and volunteer for events. Features include a multi-step reporting form, donation system with preset and custom amounts, success stories, and real-time stats tracking.",
+      "A community-driven stray animal rescue platform. Users can report stray animals with location pinning, browse and adopt rescued pets, donate to support rescue operations, and volunteer for events. Features include a multi-step reporting form, donation system with preset and custom amounts, success stories, and real-time stats tracking. This project was built with AI assistance.",
     techstack: "Django, PostgreSQL, Tailwind CSS, HTML, Docker",
     image: [adawptImage1, adawptImage2, adawptImage3],
     github: "#",
@@ -153,7 +153,7 @@ export const PROJECTS = [
     id: 6,
     title: "CONVERTEX",
     description:
-      "A free, open-source file conversion web app with a retro Windows 95 aesthetic. It supports 18 conversion types for documents, images, spreadsheets, and presentations. All files are deleted immediately after download. No accounts, no tracking, and no data collection.",
+      "A free, open-source file conversion web app with a retro Windows 95 aesthetic. It supports 18 conversion types for documents, images, spreadsheets, and presentations. All files are deleted immediately after download. No accounts, no tracking, and no data collection. This project was built with AI assistance.",
     techstack: "React, Vite, Tailwind CSS, Express.js, Sequelize, PostgreSQL, LibreOffice, Sharp, Tesseract.js",
     image: [convertexImage1, convertexImage2, convertexImage3],
     github: "https://github.com/troyuu/convertex",
@@ -163,7 +163,7 @@ export const PROJECTS = [
     id: 7,
     title: "PETTO",
     description:
-      "A privacy-first, offline-only pet care tracker for Android & iOS. All data stays on-device with no cloud and no accounts. Built for the Philippine market with PHP currency support and Askal/Puspin breeds as first-class options. Track feedings, medications, weight, expenses, and health records for your pets - fully local, fully yours.",
+      "A privacy-first, offline-only pet care tracker for Android & iOS. All data stays on-device with no cloud and no accounts. Built for the Philippine market with PHP currency support and Askal/Puspin breeds as first-class options. Track feedings, medications, weight, expenses, and health records for your pets - fully local, fully yours. This project was built with AI assistance.",
     techstack: "React Native, TypeScript, NativeWind, Tailwind CSS, Zustand, MMKV, op-sqlite, Notifee, Victory Native, Skia, Reanimated",
     image: [pettoImage1, pettoImage2, pettoImage3, pettoImage4, pettoImage5],
     github: "https://github.com/troyuu/petto",
