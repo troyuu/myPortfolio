@@ -93,7 +93,7 @@ export const PROJECTS = [
     id: 12,
     title: "KONVOY",
     description:
-      "The official website for Konvoy, one of the Philippines' premier combat sports and MMA event promotions based in Cebu City. Fans can explore past and upcoming events, follow fighter profiles and match-ups, read the latest news, blog posts, and live fight updates, and buy tickets online. The site also features a Fan Zone, fighter and event histories, partnered gyms directory, and user sign-up for a personalized experience.",
+      "The official website for Konvoy, one of the Philippines' premier combat sports and MMA event promotions based in Cebu City. Fans can explore past and upcoming events, follow fighter profiles and match-ups, read the latest news, blog posts, and live fight updates, and buy tickets online. The site also features a Fan Zone, fighter and event histories, partnered gyms directory, and user sign-up for a personalized experience. This was a team project and was built with AI assistance.",
     techstack: "WordPress, PHP",
     image: [konvoyImage1],
     github: null,
