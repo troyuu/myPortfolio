@@ -72,20 +72,22 @@ export default function ProjectCard({ project }) {
           <div className="absolute inset-0 bg-black/50" />
           <Card
             className={cn(
-              "relative z-10 mx-4 w-full gap-0 rounded-[0.5rem] bg-card p-0",
+              "relative z-10 mx-4 flex max-h-[90dvh] w-full flex-col gap-0 overflow-hidden rounded-[0.5rem] bg-card p-0",
               "max-w-[90vw] sm:max-w-[30rem] lg:max-w-[50rem]"
             )}
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Close button stays pinned while the content scrolls */}
+            <Button
+              variant="ghost"
+              size="icon"
+              className="absolute right-4 top-4 z-20 bg-card/80 font-sans text-foreground hover:bg-card"
+              onClick={() => setShowDetail(false)}
+            >
+              <X className="size-5" />
+            </Button>
+            <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain" data-lenis-prevent>
             <CardHeader className="relative p-0">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="absolute right-4 top-4 z-10 font-sans text-foreground"
-                onClick={() => setShowDetail(false)}
-              >
-                <X className="size-5" />
-              </Button>
               <div className="relative h-[18rem] w-full overflow-hidden rounded-t-[0.5rem] bg-muted sm:h-[22rem] lg:h-[28rem]">
                 {images.map((src, i) => (
                   <img
@@ -143,6 +145,7 @@ export default function ProjectCard({ project }) {
                 </a>
               )}
             </CardFooter>
+            </div>
           </Card>
         </div>,
         document.body
