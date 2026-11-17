@@ -20,6 +20,8 @@ import {
   SiShopify,
   SiFigma,
   SiWordpress,
+  SiClaude,
+  SiOpenai,
 } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 import { cn } from "@/lib/utils";
@@ -49,6 +51,8 @@ const SKILL_ICONS = {
   "Shopify":           SiShopify,
   "Figma":             SiFigma,
   "WordPress":         SiWordpress,
+  "Claude Code":       SiClaude,
+  "OpenAI Codex":      SiOpenai,
 };
 
 export default function SkillBar({ name }) {

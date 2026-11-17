@@ -52,7 +52,7 @@ export const ABOUT = {
   avatar: null,
   bio: `Hello, my name is Troy, and I am 24 years old. I am passionate about coding and UI design. Let me tell you a bit about my background. I'm a Full-Stack Developer and Freelancer based in Cebu, Philippines. I graduated with a Bachelor of Science in Information Technology from Cebu Technological University. I started learning front-end and back-end development while building projects for real clients.
 
-As a freelancer, I've worked with diverse clients to deliver high-quality web applications and automation solutions. I dedicate my life to building products through code and creative tools and constantly push myself to take on even more interesting work. The best way to enjoy learning is by doing it daily.`,
+As a freelancer, I've worked with diverse clients to deliver high-quality web applications and automation solutions. I dedicate my life to building products through code and creative tools and constantly push myself to take on even more interesting work. I keep up with the latest advances in AI-assisted development and use agentic coding tools like Claude Code and OpenAI Codex every day to plan, build, review, and ship features faster. The best way to enjoy learning is by doing it daily.`,
   note: "You can see more about my projects on my GitHub.",
 };
 
@@ -189,6 +189,9 @@ export const TECHNICAL_SKILLS = [
   { name: "Airtable", level: 85 },
   { name: "Shopify", level: 80 },
   { name: "WordPress", level: 78 },
+  // AI-Assisted Development
+  { name: "Claude Code", level: 90 },
+  { name: "OpenAI Codex", level: 85 },
 ];
 
 export const CODE_SNIPPET = `const myTechnicalSkills = [
@@ -197,7 +200,8 @@ export const CODE_SNIPPET = `const myTechnicalSkills = [
   Express.js, Django, Tailwind CSS,
   Sequelize, shadcn/ui, PostgreSQL, MongoDB,
   Docker, GitHub, Git, Postman, Figma,
-  n8n, Airtable, Shopify, WordPress ];`;
+  n8n, Airtable, Shopify, WordPress,
+  Claude Code, OpenAI Codex ];`;
 
 export const SERVICES = [
   {
