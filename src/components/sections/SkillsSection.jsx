@@ -37,7 +37,10 @@ const CODE_TOKENS = [
   { text: "Figma", type: "string" }, { text: ",\n  ", type: "plain" },
   { text: "n8n", type: "string" }, { text: ", ", type: "plain" },
   { text: "Airtable", type: "string" }, { text: ", ", type: "plain" },
-  { text: "Shopify", type: "string" }, { text: " ", type: "plain" },
+  { text: "Shopify", type: "string" }, { text: ", ", type: "plain" },
+  { text: "WordPress", type: "string" }, { text: ",\n  ", type: "plain" },
+  { text: "Claude Code", type: "string" }, { text: ", ", type: "plain" },
+  { text: "OpenAI Codex", type: "string" }, { text: " ", type: "plain" },
   { text: "]", type: "bracket" },
   { text: ";", type: "plain" },
 ];
@@ -371,7 +374,7 @@ export default function SkillsSection() {
         {/* Tech stack grid */}
         <div className="flex w-full flex-col items-center lg:w-[55%]">
           <h2 className="mb-6 text-center text-[0.9rem] font-light sm:text-[1.2rem] lg:text-[1.4rem]">
-            TECH STACK
+            TECH STACK &amp; TOOLS
           </h2>
           <div className="grid w-fit grid-cols-2 gap-x-10 gap-y-4 sm:gap-x-14 lg:gap-x-16">
             {TECHNICAL_SKILLS.map((skill) => (
